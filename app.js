@@ -2,12 +2,9 @@
 /* ---------------
     Node.JS lenslight project
 -------------------------------- */
-const express = require("express");
+import express from "express";
 const app = express();
-
-// envVariables to process.env:
-require("dotenv").config();
-const PORT = process.env?.PORT || 8080;
+const port = 3000;
 
 // EJS Templates Engine
 app.set("view engine", "ejs");
@@ -23,4 +20,6 @@ app.get("/about", (req, res) => {
 });
 
 // RUN SERVER:
-app.listen(PORT, () => console.log("http://127.0.0.1:" + PORT));
+app.listen(port, () => {
+  console.log(`Aplication running on port: ${port}`);
+});

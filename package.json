@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "Node.JS lenslight project",
   "main": "app.js",
-  "type": "commonjs",
+  "type": "module",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "node app.js"
   },
   "author": "ilkaytech",
   "license": "ISC",
@@ -13,6 +13,6 @@
     "dotenv": "^16.3.1",
     "ejs": "^3.1.9",
     "express": "^4.18.2",
-    "nodemon": "^3.0.1"
+    "nodemon": "^2.0.15"
   }
 }
