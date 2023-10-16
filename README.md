@@ -1,1 +1,23 @@
-# NODEJS-LENSLiGHT-PROJECT
+# NODEJS LENSLiGHT PROJECT
+
+- Node.JS CRUD
+- Request - Response
+- Middleware
+- Routing
+- MVC
+- Express.js
+- MongoDB
+- Mongoose
+- Postman
+- JSON WEB TOKEN
+- Authentication
+- Authorization
+- Cookie
+- Bcrypt
+- Upload a File
+- Login / Logout
+- Register
+- Form Confirmation
+- Sending Email
+- Cloudinary
+- EJS Template Engine
